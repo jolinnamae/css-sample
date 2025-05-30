@@ -1,0 +1,25 @@
+<mvc:View controllerName="css.training.csssample.controller.Page2"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+  
+  <!-- Page2 with a title -->
+  <Page id="page2" title="{i18n>title}">
+    
+    <!-- Content for Page2 -->
+    <content>
+      <Text id="text2" text="Welcome" />
+    </content>
+
+    <!-- Footer  -->
+    <footer>
+      <Toolbar id="toolbar2">
+
+        <ToolbarSpacer id="toolbarSpacer2" />
+        <Text id="footerText2" text="Where do you want to go?" />
+        <Button id="homeButton1" text="Home" press="onHomePress"/>
+        <Button id="previousPageButton" text="Previous Page" press="onNavigateToPage1"/>
+      </Toolbar>
+    </footer>
+  </Page>
+
+</mvc:View>
