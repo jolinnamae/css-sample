@@ -1,22 +1,19 @@
-/* Header Title Styling for both Page1 and Page2 */
-.sapMPageTitle {
-    color: #FF6347; /* Tomato Red for the title */
-  }
-  
-  /* Footer Styling for both Page1 and Page2 */
-  .pageStyle .sapMPageFooter {
-    background-color: #4CAF50; /* Green Footer */
-  }
-  
-  /* Styling for MessageBox Header */
-  .sapMMessageBoxTitle {
-    background-color: #333333; /* Dark Gray Header */
-    color: #FFFFFF; /* White Title */
-  }
-  
-  /* Styling for MessageBox Body */
-  .sapMMessageBox {
-    background-color: #f1f1f1;  /* Light Gray Background */
-    color: #000000;  /* Black Text */
-  }
-  
+html.sapMIBar-CTX .sapMTitle {
+    color: #033065;
+   }
+.sapMIBar.sapMHeader-CTX {
+    background-color: #7177b3;
+}
+
+html.sap-desktop .sapMIBar.sapMFooter-CTX {
+    background-color: #76c174;
+    border-top: 1px solid #cdc07d;
+}
+
+.sapMDialog>header .sapMDialogTitleGroup .sapMTitle {
+    color: #d3a711; 
+}
+
+.sapMPopup-CTX .sapMIBar.sapMHeader-CTX {
+    background-color: #893030e8;
+}

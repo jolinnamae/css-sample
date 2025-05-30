@@ -3,11 +3,11 @@
     xmlns="sap.m">
   
   <!-- Page2 with a title -->
-  <Page id="page2" title="{i18n>title}">
+  <Page id="page2" title="{i18n>page1Title}">
     
     <!-- Content for Page2 -->
     <content>
-      <Text id="text2" text="Welcome" />
+      <Text id="text2" text="Good bye" />
     </content>
 
     <!-- Footer  -->
