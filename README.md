@@ -1,3 +1,12 @@
+# Exercise Overview
+
+* Create a simple SAP UI5 application with two pages, each containing a header, footer, and two buttons.
+* Each button, when clicked, opens a message box with a custom message.
+* The header title text and footer background color are customized for both pages with the same styling.
+* The message box header background color and title color are also styled consistently.
+* This project serves as a beginner's introduction to SAP UI5 with basic components and styling.
+
+
 ## Application Details
 |               |
 | ------------- |
